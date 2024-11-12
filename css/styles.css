@@ -382,6 +382,16 @@ button {
   max-width: 320px;
 }
 
+@media screen and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/mobile-people-office2x.jpg);
+  }
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 36px;
@@ -422,6 +432,16 @@ button {
     max-width: 768px;
   }
 
+  @media screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/tab-people-office2x.jpg);
+    }
+  }
+
   .hero-title {
     font-size: 56px;
     line-height: 1.07143;
@@ -441,6 +461,16 @@ button {
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
+  }
+
+  @media screen and (min-resolution: 192dpi) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office_2x.jpg);
+    }
   }
 
   .hero-title {
@@ -723,11 +753,6 @@ button {
   display: none;
 }
 
-.portfolio-image {
-  width: 100%;
-  height: 280px;
-}
-
 .portfolio-container-caption {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -779,11 +804,6 @@ button {
     height: 420px;
     transition: box-shadow 250ms
       cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .portfolio-image {
-    width: 360px;
-    height: 300px;
   }
 
   .portfolio-overlay {
